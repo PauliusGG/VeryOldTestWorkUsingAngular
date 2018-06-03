@@ -1,3 +1,23 @@
-.container{
-    margin-top: 20px;
+
+.jumbotron{
+    background-image: url("pictures/kava.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    height: 550px;
+}
+h1, p{
+    color:white;
+}
+.btn.btn-primary{
+    background-color: #7e7e7e;
+    color: black;
+    border-radius: 0;
+    border: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+    
 }
