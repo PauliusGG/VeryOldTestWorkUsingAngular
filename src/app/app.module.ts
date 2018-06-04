@@ -3,22 +3,27 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './nav/navbar.component';
-import { CarouselComponent } from './carousel/carousel.component';
-import { MediaComponent } from './media/media.component';
+import { MainpageComponent } from './mainpage/mainpage.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
-import { ThreerowComponent } from './threerow/threerow.component'
+import { FooterComponent } from './footer/footer.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
+import { AppRoutes } from './routes';
+import { RouterModule } from '@angular/router';
+import { Error404Component } from './error404/error404.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CarouselComponent,
-    MediaComponent,
-    ThreerowComponent
+    MainpageComponent,
+    FooterComponent,
+    AboutmeComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot(AppRoutes),
     Angular2FontawesomeModule
     
   ],

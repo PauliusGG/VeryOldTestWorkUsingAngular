@@ -1,3 +1,38 @@
+
+.jumbotron{
+    background-image: url("pictures/kava.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    height: 550px;
+    margin-bottom: 0;
+    width: 100%;
+}
+h1, p{
+    color:white;
+    
+}
+.btn.btn-primary{
+    background-color: #7e7e7e;
+    color: black;
+    border-radius: 0;
+    border: none;
+    
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none !important;
+    
+    
+}
+.btn.btn-primary:hover{
+    background-color: black;
+    color: white;
+}
+.container-fluid{
+    background-color: #e3e3e3;
+}
 ul.social-network li {
 	display: inline;
 	margin: 0 5px;
@@ -73,10 +108,28 @@ a {
  background-color: #2e232d;
  border: 1px solid white;
 }
-.col-md-12{
+.col-sm-12{
     
     background-color:#261c25;
     padding: 10px 0 2px 0;
     border-bottom: solid #2b2b2b 1px;
     
 }
+.container-fluid{
+	background-color: #e3e3e3;
+}
+.col-sm-4{
+    text-align: center;
+    padding-top: 50px;
+    background-color: #e3e3e3;
+    }
+   
+    fa:hover{
+        color:red;
+        transition: 0.2s linear;
+    }
+#para{
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}    

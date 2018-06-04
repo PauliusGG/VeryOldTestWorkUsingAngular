@@ -12,3 +12,11 @@ nav{
 fa{
     padding-right: 5px;
 }
+.navbar-brand{
+    border: 1px solid black;
+    padding: 10px;
+}
+.navbar-brand:hover{
+    color: #ffff;
+    background-color: black;
+}
