@@ -1,5 +1,6 @@
 nav{
     padding: 15px;
+    
 }
 
 .dropdown-menu{
@@ -7,4 +8,7 @@ nav{
     border: none;
     border-radius: 0;
     
+}
+fa{
+    padding-right: 5px;
 }

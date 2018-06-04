@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   template: `
   <app-navbar></app-navbar>
   <app-carousel></app-carousel>
+  <media></media>
+  <threerow></threerow>
   `
 })
 export class AppComponent {
