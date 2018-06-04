@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   <navbar></navbar>
   <router-outlet></router-outlet>
   
-  <footer></footer>
+  <footerino></footerino>
   `
 })
 export class AppComponent {

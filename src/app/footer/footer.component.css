@@ -1,7 +1,5 @@
-.text-center{
-    position: fixed bottom;
-    bottom: 0px;
-    height: 200px;
+footer{
     background-color: black;
-    width: 100%;
+    color: white;
+    padding-top: 20px;
 }
