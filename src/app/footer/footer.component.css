@@ -1,13 +1,7 @@
-.col-sm-12{
-    text-align: center;
-    color: white;
-    
-}
-.container-fluid{
-    background-color:black;
-    position: bottom 0px;
-    height: 250px;
-}
-h2, p{
-    padding-top: 50px;
+.text-center{
+    position: fixed bottom;
+    bottom: 0px;
+    height: 200px;
+    background-color: black;
+    width: 100%;
 }

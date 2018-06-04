@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-md navbar-light bg-light" id='custom-nav'>
   <a class="navbar-brand" href="#">Shiz</a>
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -6,22 +6,24 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a [routerLink]="['/home']" class="nav-link" href="#"><fa [name]="'fas fa-home'"></fa>Home <span class="sr-only">(current)</span></a>
+        <a [routerLink]="['/home']" routerLinkActive='active' [routerLinkActiveOptions]='{exact: true}' class="nav-link" href="#"><fa [name]="'fas fa-home'"></fa>Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><fa [name]="'rocket'"></fa>Contacts</a>
+        <a [routerLink]="['/contacts']" routerLinkActive='active' [routerLinkActiveOptions]='{exact: true}' class="nav-link" href="#"><fa [name]="'fas fa-address-book'"></fa>Contacts</a>
       </li>
       <li class="nav-item">
-        <a [routerLink]="['/aboutme']" class="nav-link" href="#"><fa [name]="'fas fa-user'"></fa>About Us</a>
+        <a [routerLink]="['/about']" routerLinkActive='active' [routerLinkActiveOptions]='{exact: true}' class="nav-link" href="#"><fa [name]="'fas fa-user'"></fa>About Us</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="#"><fa [name]="'fas fa-coffee'"></fa>Recipes</a>
+          <a [routerLink]="['/coffeelist']"routerLinkActive='active' [routerLinkActiveOptions]='{exact: true}' class="nav-link" href="#"><fa [name]="'fas fa-coffee'"></fa>Coffee list</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="#"><fa [name]="'fas fa-users'"></fa>Career</a>
+          <a [routerLink]="['/career']" routerLinkActive='active' [routerLinkActiveOptions]='{exact: true}' class="nav-link" href="#"><fa [name]="'fas fa-users'"></fa>Career</a>
       </li>
-
-      
     </ul>
+    <button [routerLink]="['/login']" class="btn btn-default">Login</button>
+        
+    
   </div>
+ 
 </nav>

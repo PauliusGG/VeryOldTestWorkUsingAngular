@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    text-align:center;
+    padding: 20px 0 20px 0;
+}
+.container{
+    background-color: #ececec;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#lower{
+    padding-top: 40px;
+}
+

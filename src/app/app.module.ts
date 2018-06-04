@@ -10,6 +10,10 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { AppRoutes } from './routes';
 import { RouterModule } from '@angular/router';
 import { Error404Component } from './error404/error404.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { CareerComponent } from './career/career.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { Error404Component } from './error404/error404.component';
     MainpageComponent,
     FooterComponent,
     AboutmeComponent,
-    Error404Component
+    Error404Component,
+    ContactsComponent,
+    RecipesComponent,
+    CareerComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

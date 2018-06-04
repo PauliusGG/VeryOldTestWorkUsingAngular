@@ -1,0 +1,26 @@
+.card{
+    margin: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card:hover{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.2s linear;
+    
+}
+.btn.btn-primary{
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    border: solid black 1px;
+    border-radius: 0;
+    
+    
+}

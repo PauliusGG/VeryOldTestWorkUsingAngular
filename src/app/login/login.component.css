@@ -1,0 +1,13 @@
+button{
+    width: 50%;
+    border-radius: 0;
+    
+}
+#reg{
+    width: 100%;
+    background-color: red;
+    margin-top: 10px;
+}
+.container{
+    margin-top: 30px; 
+}
