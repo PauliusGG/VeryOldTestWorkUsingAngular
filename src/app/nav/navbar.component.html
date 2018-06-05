@@ -21,7 +21,7 @@
           <a [routerLink]="['/career']" routerLinkActive='active' [routerLinkActiveOptions]='{exact: true}' class="nav-link" href="#"><fa [name]="'fas fa-users'"></fa>Career</a>
       </li>
     </ul>
-    <button [routerLink]="['/login']" class="btn btn-default">Login</button>
+    <button (click)="navLogin()" class="btn btn-default">Login</button>
         
     
   </div>

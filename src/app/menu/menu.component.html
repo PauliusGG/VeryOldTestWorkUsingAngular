@@ -1,0 +1,9 @@
+    <div class='container'>
+      <h1>Coffee List</h1>
+        <hr>
+            <div class='row'>
+            <div *ngFor="let item of items" class='col-md-5'>
+            <menu-thumbnail [item]="item"></menu-thumbnail>
+            </div>
+    </div>    
+    

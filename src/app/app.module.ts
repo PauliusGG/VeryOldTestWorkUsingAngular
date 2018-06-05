@@ -11,9 +11,10 @@ import { AppRoutes } from './routes';
 import { RouterModule } from '@angular/router';
 import { Error404Component } from './error404/error404.component';
 import { ContactsComponent } from './contacts/contacts.component';
-import { RecipesComponent } from './recipes/recipes.component';
+import { MenuComponent } from './menu/menu.component';
 import { CareerComponent } from './career/career.component';
-import { LoginComponent } from './login/login.component';
+import { ItemService } from './shared/item.service';
+import { MenuThumbnailComponent } from './menu/menu-thumbnail.component';
 
 
 @NgModule({
@@ -25,9 +26,9 @@ import { LoginComponent } from './login/login.component';
     AboutmeComponent,
     Error404Component,
     ContactsComponent,
-    RecipesComponent,
+    MenuComponent,
     CareerComponent,
-    LoginComponent
+    MenuThumbnailComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +36,9 @@ import { LoginComponent } from './login/login.component';
     Angular2FontawesomeModule
     
   ],
-  providers: [],
+  providers: [
+    ItemService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
