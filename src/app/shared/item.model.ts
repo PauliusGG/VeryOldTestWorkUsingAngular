@@ -1,6 +1,7 @@
 export interface IItem {
     id: number
     name: string
-    strong: string
+    sizes: string
     price: number
+    imageUrl: string
 }

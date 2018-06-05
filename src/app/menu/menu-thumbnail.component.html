@@ -1,23 +1,28 @@
 
 <!-- Card -->
-<div class="card">
+<div class="card card-cascade wider reverse">
 
     <!-- Card image -->
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+    <div class="view view-cascade overlay">
+      <img class="card-img-top" src={{item.imageUrl}} alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
   
     <!-- Card content -->
-    <div class="card-body">
+    <div class="card-body card-body-cascade text-center">
   
       <!-- Title -->
-      <h4 class="card-title"><a>{{item.name}}</a></h4>
+      <h4 class="card-title"><strong>{{item.name}}</strong></h4>
+      <!-- Subtitle -->
+      
       <!-- Text -->
-      <p class="card-text">{{item.strong}}</p>
-      <p class="card-text">{{item.price}}</p>
-      <!-- Button -->
-      <a href="#" class="btn btn-primary">Button</a>
+      <p class="card-text"><fa [name]="'fas fa-coins'"></fa>Sizes: {{item.sizes}}</p>
+      <p class="card-text"><fa [name]="'far fa-money-bill-alt'"></fa>Price: {{item.price | currency:'EUR':true}}</p>
   
     </div>
   
   </div>
   <!-- Card -->
-  
+              
