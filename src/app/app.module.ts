@@ -15,6 +15,7 @@ import { MenuComponent } from './menu/menu.component';
 import { CareerComponent } from './career/career.component';
 import { ItemService } from './shared/item.service';
 import { MenuThumbnailComponent } from './menu/menu-thumbnail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { MenuThumbnailComponent } from './menu/menu-thumbnail.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot(AppRoutes),
-    Angular2FontawesomeModule
+    Angular2FontawesomeModule,
+    HttpClientModule
     
   ],
   providers: [

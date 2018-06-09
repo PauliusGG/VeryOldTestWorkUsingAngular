@@ -12,8 +12,10 @@ export class MenuComponent implements OnInit {
   items:IItem[]
   constructor(private itemService: ItemService) {
    }
-  ngOnInit() {
-    this.itemService.getItems().subscribe(items =>{this.items = items})
+  ngOnInit(): void {
+    this.itemService.getItems()
+          .subscribe(
+            item => {this.items = item})
   }
 
 }
