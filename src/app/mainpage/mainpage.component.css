@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-#whole{
+#pirmas{
 	text-align: center;
 	padding: 40px;
 	background-color: #fbf9f7;
@@ -33,7 +33,7 @@ img{
 	padding: 20px;
 }
 .col-md-12{
-	background-image: url('https://images.wallpaperscraft.com/image/coffee_cup_hands_120722_1920x1080.jpg');
+	background-image: url('/assets/pirmaskof.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -86,7 +86,27 @@ img{
 .hovert2 img{
 	padding-top: 50px;
 }
-#whole .btn.btn-default{
+#pirmas button{
 	padding: 20px;
-	border-bottom: 1px;
+	border: 2px solid black;
+	border-radius: 0%;
+	background: none;
+	font-weight: 500;
+}
+#pirmas button:focus, button:active{
+	outline: none !important;
+   	box-shadow: none;
+}
+#pirmas button:hover{
+	background-color: #3b3737;
+	border: 2px solid #521a0a;
+	color: white;
+	
+}
+#antras{
+	background-image: url('/assets/bkg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 10%;
 }
