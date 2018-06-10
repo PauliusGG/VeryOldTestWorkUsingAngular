@@ -2,18 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-.col-sm-12{
+#whole{
 	text-align: center;
-	color: white;
-	background-color: #281c1c;
+	padding: 40px;
+	background-color: #fbf9f7;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
-}
-.col-sm-12 p {
-	padding-bottom: 20px;
-}
-.col-sm-12 h1{
-	padding-top: 20px;
 }
 .card.card-image{
 	border-radius: 0%;
@@ -24,7 +17,8 @@
 .container-fluid{
 	margin: 0;
 	padding: 0;
-	Background-color: #2d2020;
+	background: #59200a;
+	
 }
 img{
 	border-radius: 0%;
@@ -37,6 +31,13 @@ img{
 }
 .card p{
 	padding: 20px;
+}
+.col-md-12{
+	background-image: url('https://images.wallpaperscraft.com/image/coffee_cup_hands_120722_1920x1080.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 10%;
 }
 #kort{
 	border-radius: 0%;
@@ -51,7 +52,7 @@ img{
 
 }
 #first-card{
-	background-color: #2d2020;
+	background-color: #59200a;
 	color: white;
 	text-align: center;
 }
@@ -59,7 +60,7 @@ img{
 	font-size: 14px;
 }
 #second-card{
-	background-color: #352222;
+	background-color: #521a0a;
 	color: white;
 	text-align: center;
 	
@@ -68,17 +69,12 @@ img{
 	padding: 40px 5px 200px 40px;
 	font-size: 14px;
 }
-.kibiras{
-	border: 1px solid white;
-}
-#antras{
-	padding-top: 120px;
-}
 .hovert{
 	border-radius: 0%;
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
+	padding-top: 50px;
 
 }
 .hovert:hover{
@@ -87,17 +83,10 @@ img{
 	transform: scale(0.9);
 
 }
-.hovert2{
-	border-radius: 0%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.5s;
-
+.hovert2 img{
+	padding-top: 50px;
 }
-.hovert2:hover{
-	-moz-transform: scale(1.05);
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-	text-align: center;
-
+#whole .btn.btn-default{
+	padding: 20px;
+	border-bottom: 1px;
 }
