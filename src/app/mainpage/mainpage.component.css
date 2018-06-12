@@ -1,11 +1,12 @@
 *{
 	margin: 0;
 	padding: 0;
+	
 }
 #pirmas{
 	text-align: center;
 	padding: 40px;
-	background-color: #fbf9f7;
+	background: #fbf9f7;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card.card-image{
@@ -18,6 +19,8 @@
 	margin: 0;
 	padding: 0;
 	background: #59200a;
+	overflow-x: hidden;
+	
 	
 }
 img{
@@ -52,7 +55,7 @@ img{
 
 }
 #first-card{
-	background-color: #59200a;
+	background: #59200a;
 	color: white;
 	text-align: center;
 }
@@ -60,7 +63,7 @@ img{
 	font-size: 14px;
 }
 #second-card{
-	background-color: #521a0a;
+	background: #521a0a;
 	color: white;
 	text-align: center;
 	
@@ -98,7 +101,7 @@ img{
    	box-shadow: none;
 }
 #pirmas button:hover{
-	background-color: #3b3737;
+	background: #3b3737;
 	border: 2px solid #521a0a;
 	color: white;
 	

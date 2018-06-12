@@ -16,6 +16,7 @@ import { CareerComponent } from './career/career.component';
 import { ItemService } from './shared/item.service';
 import { MenuThumbnailComponent } from './menu/menu-thumbnail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MenuDetailsComponent } from './menu/menu-details.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactsComponent,
     MenuComponent,
     CareerComponent,
-    MenuThumbnailComponent
+    MenuThumbnailComponent,
+    MenuDetailsComponent
   ],
   imports: [
     BrowserModule,

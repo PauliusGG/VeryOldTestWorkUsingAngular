@@ -1,28 +1,15 @@
-
-<!-- Card -->
-<div class="card card-cascade wider reverse">
-
-    <!-- Card image -->
-    <div class="view view-cascade overlay">
-      <img class="card-img-top" src={{item.imageUrl}} alt="Card image cap">
+<div class='container'>
+<div class="card">
+    <div class="view overlay">
+      <img class="card-img-top" src="{{item.imageUrl}}" alt="Card image cap">
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
       </a>
     </div>
-  
-    <!-- Card content -->
-    <div class="card-body card-body-cascade text-center">
-  
-      <!-- Title -->
-      <h4 class="card-title"><strong>{{item.name}}</strong></h4>
-      <!-- Subtitle -->
-      
-      <!-- Text -->
-      <p class="card-text"><fa [name]="'fas fa-coins'"></fa>Sizes: {{item.sizes}}</p>
-      <p class="card-text"><fa [name]="'far fa-money-bill-alt'"></fa>Price: {{item.price | currency:'EUR':symbol}}</p>
-  
+    <div class="card-body">
+      <h4 class="card-title">{{item.name}}</h4>
+      <h6 class="card-text">Price: {{item.price | currency:'EUR':'symbol'}}  </h6>
     </div>
-  
   </div>
-  <!-- Card -->
+</div>
               

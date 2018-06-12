@@ -4,14 +4,14 @@
     "name": "Espresso",
     "sizes": "Small , Medium",
     "price": 3.20,
-    "imageUrl": "https://www.kickinghorsecoffee.com/sites/default/files/styles/primary_page_regular_mobile/public/images/caffeine_espresso_vs_drip.jpg?itok=4J6IOel_"
+    "imageUrl": "https://globalassets.starbucks.com/assets/376e8381434049798635d370bee0d7f0.jpg"
   },
   {
     "id": 2,
     "name": "Double Espresso (Dopio)",
     "sizes": "Small, Medium, Large, Extra Large",
     "price": 4.20,
-    "imageUrl": "https://coffee-channel.com/wp-content/uploads/2017/05/espresso-691231_640.jpg"
+    "imageUrl": "https://globalassets.starbucks.com/assets/0ff79da77eba446c8970c65d08dc2f33.jpg"
 
   },
   {
@@ -19,13 +19,20 @@
     "name": "Long Black Americano",
     "sizes": "Medium",
     "price": 44,
-    "imageUrl": "https://www.nespresso.com/ncp/res/resized/w1920/uploads/recipes/Americano%20by%20Nespresso.jpg"
+    "imageUrl": "https://globalassets.starbucks.com/assets/499d3844246a49feaad84031739b0c40.jpg"
   },
   {
     "id": 4,
     "name": "Latte",
     "sizes": "Small, Medium, Large",
     "price": 2.80,
-    "imageUrl": "https://image.freepik.com/free-photo/latte-coffee-cup_1203-3395.jpg"
+    "imageUrl": "https://globalassets.starbucks.com/assets/0cb1ebce69c442b6a7a1dae3fd7171c9.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Frappucino",
+    "sizes": "Medium, Large",
+    "price": 2.20,
+    "imageUrl": "https://globalassets.starbucks.com/assets/70658bc9d7e04ae38ce59148998520fa.jpg"
   }
 ]
