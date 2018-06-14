@@ -14,9 +14,9 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { MenuComponent } from './menu/menu.component';
 import { CareerComponent } from './career/career.component';
 import { ItemService } from './shared/item.service';
-import { MenuThumbnailComponent } from './menu/menu-thumbnail.component';
+import { ItemThumbnailComponent } from './menu/item-thumbnail.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MenuDetailsComponent } from './menu/menu-details.component';
+import { RegisterComponent } from './user/register/register.component';
 
 
 @NgModule({
@@ -30,8 +30,7 @@ import { MenuDetailsComponent } from './menu/menu-details.component';
     ContactsComponent,
     MenuComponent,
     CareerComponent,
-    MenuThumbnailComponent,
-    MenuDetailsComponent
+    ItemThumbnailComponent,
   ],
   imports: [
     BrowserModule,

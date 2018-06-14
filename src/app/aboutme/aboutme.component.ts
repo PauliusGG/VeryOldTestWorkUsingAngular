@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'aboutme',
   templateUrl: './aboutme.component.html',
-  styleUrls: ['./aboutme.component.css']
+  styleUrls: ['./aboutme.component.scss']
 })
 export class AboutmeComponent implements OnInit {
 
@@ -11,5 +12,6 @@ export class AboutmeComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 
 }

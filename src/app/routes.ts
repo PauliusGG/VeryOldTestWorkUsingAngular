@@ -9,7 +9,7 @@ import { Error404Component } from "./error404/error404.component";
 
 export const AppRoutes:Routes = [
     {path: 'home', component: MainpageComponent},
-    {path: 'coffeelist', component: MenuComponent},
+    {path: 'items', component: MenuComponent},
     {path: '404', component: Error404Component},
     {path: 'about', component: AboutmeComponent},
     {path: 'user', loadChildren: './user/user.module#UserModule'},

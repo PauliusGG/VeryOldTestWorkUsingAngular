@@ -34,5 +34,41 @@
     "sizes": "Medium, Large",
     "price": 2.20,
     "imageUrl": "https://globalassets.starbucks.com/assets/70658bc9d7e04ae38ce59148998520fa.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Iced Latte",
+    "sizes": "Medium",
+    "price": 3.00,
+    "imageUrl": "https://globalassets.starbucks.com/assets/113eecde8be945c0aaa3adc40410e8b1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Flat White",
+    "sizes": "Medium, Small",
+    "price": 2.00,
+    "imageUrl": "https://globalassets.starbucks.com/assets/79b276794c714d7c9c14dd2d1757b097.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Vanilla Latte",
+    "sizes": "Medium, Small",
+    "price": 2.00,
+    "imageUrl": "https://globalassets.starbucks.com/assets/ab3ed8aa6ff641fcb467822815e5bc01.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Cafeingo Double",
+    "sizes": "Medium",
+    "price": 2.20,
+    "imageUrl": "https://globalassets.starbucks.com/assets/d8e96f7710514b7a961425b0e22a7c47.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Skinny Mocha",
+    "sizes": "Medium, Small",
+    "price": 2.40,
+    "imageUrl": "https://globalassets.starbucks.com/assets/73f48e9a2580412b8b28a8e75d4b4642.jpg"
   }
+
 ]

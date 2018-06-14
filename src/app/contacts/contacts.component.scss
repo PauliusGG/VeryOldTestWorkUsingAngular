@@ -1,18 +1,20 @@
 .jumbotron{
+    h1{
+        color: #ffff;
+        background: #444;
+        padding: 10px 10px;
+    }
+
     border-radius: 0%;
     background: url('/assets/vilnius.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 200px;
 }
-.jumbotron h1{
-    color: white;
-    background: rgb(0, 0, 0, 0.6);
-    padding: 10px 10px;
-}
+
 .card1, .card2, .card3{
     padding-bottom: 60px;
 }
 .container{
-    background: rgb(255, 255, 255, 0.6);
+    background: #e1e1e1;
 }

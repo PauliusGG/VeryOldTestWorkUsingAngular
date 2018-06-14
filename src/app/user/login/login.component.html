@@ -1,24 +1,16 @@
 <div class='container'>
-    <!-- Default form login -->
     <form>
         <p class="h4 text-center mb-4">Sign in</p>
-    
-        <!-- Default input email -->
         <label for="defaultFormLoginEmailEx" class="grey-text">Your email</label>
         <input type="email" id="defaultFormLoginEmailEx" class="form-control">
-    
         <br>
-    
-        <!-- Default input password -->
         <label for="defaultFormLoginPasswordEx" class="grey-text">Your password</label>
         <input type="password" id="defaultFormLoginPasswordEx" class="form-control">
-    
         <div class="text-center mt-4">
-            <button class="btn btn-indigo" type="submit">Login</button>
+            <button class="btn btn-indigo" type="submit" (click)='notWorking()'>Login</button>
         </div>
         <div class="text-center mt-4">
-            <button class="btn btn-indigo" type="submit" (click)="register()">Register</button>
+            <button class="btn btn-primary" type="submit" (click)="register()">Register</button>
         </div>
     </form>
-    <!-- Default form login -->
 </div>

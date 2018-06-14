@@ -1,0 +1,38 @@
+
+.container-fluid{
+    padding: 150px;
+    text-align: center;
+    background: #333333;
+    h1{
+        
+        color: #adadad;
+    }
+    p{
+        color: white;
+    }
+}
+.container{
+    padding-bottom: 200px;
+    h1{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: #1e1e1e;
+        font-size: 50px;
+    }
+    p{
+        font-weight: 500;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    background: #ededed;
+}
+
+hr{
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}

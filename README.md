@@ -1,3 +1,7 @@
+
+Project is far from finished. Item details and whole authentication system will be implemented in near future. Note that all pictures and text are for demonstration purposes only and were taken from other websites.
+
+
 # Saitas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.

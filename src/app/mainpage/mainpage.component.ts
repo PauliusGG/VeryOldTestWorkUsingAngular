@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'mainpage',
   templateUrl: './mainpage.component.html',
-  styleUrls: ['./mainpage.component.css']
+  styleUrls: ['./mainpage.component.scss']
 })
 export class MainpageComponent implements OnInit {
 
@@ -14,7 +14,7 @@ export class MainpageComponent implements OnInit {
     
   }
   goMenu(){
-    this.router.navigate(['/coffeelist'])
+    this.router.navigate(['/items'])
   }
 
 }
