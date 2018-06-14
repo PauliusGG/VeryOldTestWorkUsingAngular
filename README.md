@@ -1,5 +1,5 @@
 
-Project is far from finished. Item details and whole authentication system will be implemented in near future. Note that all pictures and text are for demonstration purposes only and were taken from other websites.
+Project is far from finished. Item details and whole authentication system will be implemented in near future (lack of time).Manually tested by me. Note that all pictures and text are for demonstration purposes only and were taken from other websites.
 
 
 # Saitas
